@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="turtlesim" pkg="turtlesim" type="turtlesim_node"/>
+
+  <node name="1910300" pkg="u1910300_mid" type="1910300.py" shebang="python3" output="screen"/>
+
+</launch>
